@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Samuel Barasa - Contact</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="logo">Samuel Barasa</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero-banner">
+    Contact Me
+  </section>
+
+  <main>
+    <form action="#" method="post">
+      <fieldset>
+        <legend>Personal Info</legend>
+        <label for="fullname">Full Name:</label>
+        <input type="text" id="fullname" name="fullname" required placeholder="Your Name">
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required placeholder="you@example.com">
+
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" placeholder="Optional">
+      </fieldset>
+
+      <fieldset>
+        <legend>Message</legend>
+        <label for="subject">Subject:</label>
+        <select id="subject" name="subject">
+          <option>Inquiry</option>
+          <option>Feedback</option>
+          <option>Other</option>
+        </select>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required minlength="50" placeholder="Type your message here"></textarea>
+
+        <label>
+          <input type="checkbox" name="newsletter"> Subscribe to newsletter
+        </label>
+
+        <button type="submit">Send</button>
+      </fieldset>
+    </form>
+
+    <section class="contact-info">
+      <h2>Other Ways to Reach Me</h2>
+      <address>
+        Email: <a href="mailto:samuelbarasa106@gmail.com">samuelbarasa106@gmail.com</a><br>
+        Phone: <a href="tel:+254711206282">+254711206282</a><br>
+        Location: Nairobi, Kenya
+      </address>
+      <p>Social: <a href="#">Twitter</a> | <a href="#">LinkedIn</a> | <a href="#">GitHub</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Samuel Barasa</p>
+  </footer>
+</body>
+</html>
