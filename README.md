@@ -2,7 +2,7 @@
 
 **Repository:** `iyf-s10-week-01-Solfegesam`  
 **Student:** Samuel Barasa  
-**GitHub Pages URL:** [https://Solfegesam.github.io/iyf-s10-week-01-Solfegesam/](https://Solfegesam.github.io/iyf-s10-week-01-Solfegesam)
+**GitHub Pages URL:** [https://Solfegesam.github.io/iyf-s10-week-01-Solfegesam](https://Solfegesam.github.io/iyf-s10-week-01-Solfegesam)
 
 ## Overview
 This is my Week 1 multi-page portfolio for IYF Weekend Academy Season 10.
