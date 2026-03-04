@@ -33,7 +33,7 @@ This is my Week 1 multi-page portfolio for IYF Weekend Academy Season 10.
 | 5   | Blog layout `<article>, <time>, <cite>` |
 
 ## Deployment
-Live URL: [https://Solfegesam.github.io/iyf-s10-week-01-Solfegesam/](https://Solfegesam.github.io/iyf-s10-week-01-Solfegesam/)
+Live URL: [https://Solfegesam.github.io/iyf-s10-week-01-Solfegesam](https://Solfegesam.github.io/iyf-s10-week-01-Solfegesam)
 
 ## Author
 Samuel Barasa  
