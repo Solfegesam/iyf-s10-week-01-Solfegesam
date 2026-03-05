@@ -1,14 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
+  <meta name="description" content="Contact Samuel Barasa - Web developer and programming student.">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Samuel Barasa - Contact</title>
+
+  <title>Contact | Samuel Barasa</title>
+
   <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
+
+  <!-- Header -->
   <header>
     <div class="logo">Samuel Barasa</div>
+
     <nav>
       <ul>
         <li><a href="index.html">Home</a></li>
@@ -19,57 +27,117 @@
     </nav>
   </header>
 
+  <!-- Hero Banner -->
   <section class="hero-banner">
-    Contact Me
+    <h1>Contact Me</h1>
+    <p><br/><br/><br/>Let's work together or discuss new ideas.</p>
+      
   </section>
 
-  <main>
+  <!-- Main Content -->
+  <main class="container">
+
+    <!-- Contact Form -->
     <form action="#" method="post">
+
       <fieldset>
-        <legend>Personal Info</legend>
-        <label for="fullname">Full Name:</label>
-        <input type="text" id="fullname" name="fullname" required placeholder="Your Name">
+        <legend>Personal Information</legend>
 
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required placeholder="you@example.com">
+        <label for="fullname">Full Name</label>
+        <input
+          type="text"
+          id="fullname"
+          name="fullname"
+          required
+          placeholder="Your Name">
 
-        <label for="phone">Phone:</label>
-        <input type="tel" id="phone" name="phone" placeholder="Optional">
+        <label for="email">Email</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          required
+          placeholder="you@example.com">
+
+        <label for="phone">Phone</label>
+        <input
+          type="tel"
+          id="phone"
+          name="phone"
+          placeholder="Optional">
+
       </fieldset>
 
       <fieldset>
-        <legend>Message</legend>
-        <label for="subject">Subject:</label>
+
+        <legend>Your Message</legend>
+
+        <label for="subject">Subject</label>
         <select id="subject" name="subject">
           <option>Inquiry</option>
           <option>Feedback</option>
+          <option>Project Collaboration</option>
           <option>Other</option>
         </select>
 
-        <label for="message">Message:</label>
-        <textarea id="message" name="message" required minlength="50" placeholder="Type your message here"></textarea>
+        <label for="message">Message</label>
+        <textarea
+          id="message"
+          name="message"
+          required
+          minlength="50"
+          placeholder="Type your message here"></textarea>
 
-        <label>
-          <input type="checkbox" name="newsletter"> Subscribe to newsletter
+        <label class="checkbox">
+          <input type="checkbox" name="newsletter">
+          Subscribe to newsletter
         </label>
 
-        <button type="submit">Send</button>
+        <button type="submit">Send Message</button>
+
       </fieldset>
+
     </form>
 
+    <!-- Contact Info -->
     <section class="contact-info">
+
       <h2>Other Ways to Reach Me</h2>
+
       <address>
-        Email: <a href="mailto:samuelbarasa106@gmail.com">samuelbarasa106@gmail.com</a><br>
-        Phone: <a href="tel:+254711206282">+254711206282</a><br>
+
+        Email:
+        <a href="mailto:samuelbarasa106@gmail.com">
+          samuelbarasa106@gmail.com
+        </a>
+
+        <br><br>
+
+        Phone:
+        <a href="tel:+254711206282">
+          +254 711 206 282
+        </a>
+
+        <br><br>
+
         Location: Nairobi, Kenya
+
       </address>
-      <p>Social: <a href="#">Twitter</a> | <a href="#">LinkedIn</a> | <a href="#">GitHub</a></p>
+
+      <p>
+        <a href="https://github.com/Solfegesam" target="_blank">GitHub</a> |
+        <a href="#" target="_blank">LinkedIn</a> |
+        <a href="#" target="_blank">Twitter</a>
+      </p>
+
     </section>
+
   </main>
 
+  <!-- Footer -->
   <footer>
-    <p>© 2026 Samuel Barasa</p>
+    <p>© 2026 Samuel Barasa | All Rights Reserved</p>
   </footer>
+
 </body>
 </html>
