@@ -78,7 +78,7 @@ Lighthouse Accessibility Score: **100%**
 This project is deployed using **GitHub Pages**.
 
 🔗 Live Site:  
-[https://Solfegesam.github.io/iyf-s10-week-01-Solfegesam/](https://Solfegesam.github.io/iyf-s10-week-01-Solfegesam/)
+[https://Solfegesam.github.io/iyf-s10-week-01-Solfegesam](https://Solfegesam.github.io/iyf-s10-week-01-Solfegesam)
 
 ---
 
